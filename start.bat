@@ -1,0 +1,1 @@
+java -jar -Xmx4G arclight-forge-1.20.1-1.0.4.jar

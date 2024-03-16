@@ -1,0 +1,73 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.128.181.2
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1710185727252
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1710186660523
+  login: 1710183497452
+money: '0'
+last-account-name: Player81
+lastlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 1818.6772973024295
+  y: 60.0001001
+  z: -285.0618245570028
+  yaw: 139.97918701171875
+  pitch: 22.799983978271484
+logoutlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 934.763872632965
+  y: 70.0
+  z: -197.95223086933754
+  yaw: 91.38009643554688
+  pitch: 30.60009765625
+homes:
+  home:
+    world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+    world-name: thetms
+    x: -593.4497654577591
+    y: 75.03264306031436
+    z: -237.51741942129524
+    yaw: 103.9962158203125
+    pitch: 28.800058364868164
+mail:
+- legacy: false
+  read: true
+  message: Привет внучек! Это твой пятиюродный дядя по линии троюродного деда собаки
+    кота жены отца. Скинешь 500 рублей до завтра?
+  sender-name: kub1us
+  sender-uuid: f85c18b1-0a19-3e4f-bc87-f8f3c558fa9c
+  timestamp: 1708363343936
+  expire: 0
+- legacy: false
+  read: true
+  message: Ты должен был найти старого пациента, а в итоге спас нового. Он бы здох
+    если бы ты его не привел. Оставил тебе подарок в камере. Доктор Зоопарк
+  sender-name: Fakem1ner
+  sender-uuid: 8c23eeed-29f7-3825-afae-20737daf3c44
+  timestamp: 1705781497675
+  expire: 0
+- legacy: false
+  read: true
+  message: Ты должен был найти старого пациента, а в итоге спас нового. Он бы здох
+    если бы ты его не привел. Оставил тебе подарок в камере. Доктор Зоопарк
+  sender-name: Fakem1ner
+  sender-uuid: 8c23eeed-29f7-3825-afae-20737daf3c44
+  timestamp: 1705781490523
+  expire: 0
+confirm-clear: false

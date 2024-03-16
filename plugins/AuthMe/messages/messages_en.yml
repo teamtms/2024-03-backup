@@ -1,0 +1,152 @@
+# Registration
+registration:
+    disabled: '&b[TMS] &r&cРегистрация отключена.'
+    name_taken: '&b[TMS] &r&cИгрок с таким никнеймом уже зарегистрирован.'
+    register_request: '&b[TMS] &r&3Регистрация: &e&o/reg <пароль> <повтор пароля>'
+    command_usage: '&b[TMS] &r&cИспользование: &e&o/reg <пароль> <повтор пароля>'
+    reg_only: '&b[TMS] &r&4Вход только для зарегистрированных! Посетите http://thetms.ru для регистрации.'
+    success: '&b[TMS] &r&2Вы успешно зарегистрировались!'
+    kicked_admin_registered: '&b[TMS] &rАдминистратор зарегистрировал вас. Авторизуйтесь снова.'
+
+# Password errors on registration
+password:
+    match_error: '&b[TMS] &r&cПароли не совпадают.'
+    name_in_password: '&b[TMS] &r&cНельзя использовать свой никнейм в качестве пароля.'
+    unsafe_password: '&b[TMS] &r&cТакой пароль небезопасен.'
+    forbidden_characters: '&b[TMS] &r&4Пароль содержит запрещённые символы. Разрешённые: %valid_chars'
+    wrong_length: '&b[TMS] &r&cПароль слишком длинный/короткий.'
+
+# Login
+login:
+    command_usage: '&b[TMS] &r&cИспользование: &e&o/login <пароль>'
+    wrong_password: '&b[TMS] &r&cНеправильный пароль!'
+    success: '&b[TMS] &r&2Вы успешно вошли!'
+    login_request: '&b[TMS] &r&3Авторизация: &e&o/login <Пароль>'
+    timeout_error: '&b[TMS] &r&4Время авторизации истекло.'
+
+# Errors
+error:
+    denied_command: '&b[TMS] &r&cНеобходимо авторизоваться для использования этой команды!'
+    denied_chat: '&b[TMS] &r&cНеобходимо авторизоваться, чтобы писать в чат!'
+    unregistered_user: '&b[TMS] &r&cИгрок с таким именем не зарегистрирован.'
+    not_logged_in: '&b[TMS] &r&cВы ещё не вошли!'
+    no_permission: '&b[TMS] &r&4Недостаточно прав.'
+    unexpected_error: '&b[TMS] &r&cПроизошла ошибка. Свяжитесь с Player81.'
+    max_registration: '&b[TMS] &r&cПревышено максимальное количество регистраций на сервере! (%reg_count/%max_acc %reg_names)'
+    logged_in: '&b[TMS] &r&cВы уже авторизированы!'
+    kick_for_vip: '&b[TMS] &r&3VIP-игрок зашёл на переполненный сервер.'
+    kick_unresolved_hostname: '&b[TMS] &r&cПроизошла ошибка: неразрешенное имя узла игрока!'
+    tempban_max_logins: '&b[TMS] &r&cВы временно заблокированы из-за большого количества неудачных попыток авторизоваться.'
+
+# AntiBot
+antibot:
+    kick_antibot: '&b[TMS] &rСработала защита против ботов! Необходимо подождать перед следующим входом на сервер.'
+    auto_enabled: '&b[TMS] &r&4[AuthMe] AntiBot-режим включился из-за большого количества входов!'
+    auto_disabled: '&b[TMS] &r&2[AuthMe] AntiBot-режим отключился спустя %m мин.'
+
+# Unregister
+unregister:
+    success: '&b[TMS] &r&cУчётная запись успешно удалена!'
+    command_usage: '&b[TMS] &r&cИспользование: &e&o/unregister <пароль>'
+
+# Other messages
+misc:
+    account_not_activated: '&b[TMS] &r&cВаша уч. запись ещё не активирована. Проверьте электронную почту!'
+    password_changed: '&b[TMS] &r&2Ваш пароль изменён!'
+    logout: '&b[TMS] &r&2Вы успешно вышли.'
+    reload: '&b[TMS] &r&6Конфигурация и база данных перезагружены.'
+    usage_change_password: '&b[TMS] &r&cИспользование: &e&o/changepassword <пароль> <новый пароль>'
+    accounts_owned_self: '&b[TMS] &rУ вас %count уч. записей:'
+    accounts_owned_other: '&b[TMS] &rУ игрока %name %count уч. записей:'
+
+# Session messages
+session:
+    valid_session: '&b[TMS] &r&2Вы автоматически авторизовались!'
+    invalid_session: '&b[TMS] &r&cСессия некорректна. Дождитесь, пока она закончится.'
+
+# Error messages when joining
+on_join_validation:
+    same_ip_online: '&b[TMS] &rИгрок с данным IP-адресом уже играет на сервере!'
+    same_nick_online: '&b[TMS] &r&4Игрок с данным никнеймом уже играет на сервере!'
+    name_length: '&b[TMS] &r&4Ваш никнейм слишком длинный/короткий.'
+    characters_in_name: '&b[TMS] &r&4Ваш никнейм содержит запрещённые символы. Разрешённые: %valid_chars'
+    kick_full_server: '&b[TMS] &r&4Сервер полон. Попробуйте зайти позже!'
+    country_banned: '&b[TMS] &r&4Вход с IP-адресов вашей страны запрещён на этом сервере.'
+    not_owner_error: '&b[TMS] &rВы не являетесь владельцем данной уч. записи. Выберите себе другой никнейм!'
+    invalid_name_case: '&b[TMS] &rНеверный никнейм! Зайдите под никнеймом %valid, а не %invalid.'
+    quick_command: '&b[TMS] &rВы вводили команды слишком часто! Пожалуйста, переподключитесь и вводите команды медленнее.'
+
+# Email
+email:
+    add_email_request: '&b[TMS] &r&3Добавьте электронную почту: &e&o/email add <эл. почта> <повтор эл. почты>'
+    usage_email_add: '&b[TMS] &r&cИспользование: &e&o/email add <эл. почта> <повтор эл. почты>'
+    usage_email_change: '&b[TMS] &r&cИспользование: &e&o/email change <эл. почта> <новая эл. почта>'
+    new_email_invalid: '&b[TMS] &r&cНедействительная новая электронная почта!'
+    old_email_invalid: '&b[TMS] &r&cНедействительная старая электронная почта!'
+    invalid: '&b[TMS] &r&cНедействительный адрес электронной почты!'
+    added: '&b[TMS] &r&2Электронная почта успешно добавлена!'
+    add_not_allowed: '&b[TMS] &r&cДобавление электронной почты не было разрешено.'
+    request_confirmation: '&b[TMS] &r&cПодтвердите свою электронную почту!'
+    changed: '&b[TMS] &r&2Адрес электронной почты изменён!'
+    change_not_allowed: '&b[TMS] &r&cИзменение электронной почты не было разрешено.'
+    email_show: '&b[TMS] &r&2Текущий адрес электронной почты — &f%email'
+    no_email_for_account: '&b[TMS] &r&2К вашей уч. записи не привязана электронная почта.'
+    already_used: '&b[TMS] &r&4Эта электронная почта уже используется.'
+    incomplete_settings: '&b[TMS] &rОшибка: не все необходимые параметры установлены для отправки электронной почты. Свяжитесь с администратором.'
+    send_failure: '&b[TMS] &rПисьмо не может быть отправлено. Свяжитесь в администратором.'
+    change_password_expired: '&b[TMS] &rБольше нельзя сменить свой пароль, используя эту команду.'
+    email_cooldown_error: '&b[TMS] &r&cПисьмо было отправлено недавно. Подождите %time, прежде чем отправить новое.'
+
+# Password recovery by email
+recovery:
+    forgot_password_hint: '&b[TMS] &r&Забыли пароль? Используйте &e&o/email recovery <эл. почта>.'
+    command_usage: '&b[TMS] &r&cИспользование: &e&o/email recovery <эл. почта>'
+    email_sent: '&b[TMS] &r&2Письмо с инструкциями для восстановления было отправлено на вашу электронную почту!'
+    code:
+        code_sent: '&b[TMS] &rКод восстановления для сброса пароля был отправлен на электронную почту.'
+        incorrect: '&b[TMS] &rНеверный код восстановления! Попыток осталось: %count.'
+        tries_exceeded: '&b[TMS] &rВы слишком много раз неверно ввели код восстановления. Используйте &e&o/email recovery <эл. почта>&r, чтобы получить новый код.'
+        correct: '&b[TMS] &rКод восстановления введён верно!'
+        change_password: '&b[TMS] &rИспользуйте &e&o/email setpassword <новый пароль>&r, чтобы сменить свой пароль.'
+
+# Captcha
+captcha:
+    usage_captcha: '&b[TMS] &r&3Необходимо ввести текст с каптчи. Используйте &e&o/captcha %captcha_code'
+    wrong_captcha: '&b[TMS] &r&cНеверно! Используйте &e&o/captcha %captcha_code.'
+    valid_captcha: '&b[TMS] &r&2Вы успешно решили каптчу!'
+    captcha_for_registration: '&b[TMS] &rЧтобы зарегистрироваться, решите каптчу используя команду: &e&o/captcha %captcha_code'
+    register_captcha_valid: '&b[TMS] &r&2Вы успешно решили каптчу! Теперь вы можете зарегистрироваться командой &e&o/register'
+
+# Verification code
+verification:
+    code_required: '&b[TMS] &r&3Эта команда чувствительна и требует подтверждения электронной почты! Проверьте свою почту и следуйте инструкциям в письме.'
+    command_usage: '&b[TMS] &r&cИспользование: &e&o/verification <код>'
+    incorrect_code: '&b[TMS] &r&cНеверный код, используйте &e&o/verification <код>&r, подставив код из полученного письма.'
+    success: '&b[TMS] &r&2Ваша личность подтверждена! Теперь можно выполнять все чувствительные команды в текущем сеансе!'
+    already_verified: '&b[TMS] &r&2Вы уже можете выполнять все чувствительные команды в текущем сеансе!'
+    code_expired: '&b[TMS] &r&3Срок действия кода истёк! Выполните чувствительную команду, чтобы получить новый код!'
+    email_needed: '&b[TMS] &r&3Чтобы подтвердить вашу личность, необходимо привязать электронную почту к учётной записи!!'
+
+# Time units
+time:
+    second: 'с.'
+    seconds: 'с.'
+    minute: 'мин.'
+    minutes: 'мин.'
+    hour: 'ч.'
+    hours: 'ч.'
+    day: 'дн.'
+    days: 'дн.'
+
+# Two-factor authentication
+two_factor:
+    code_created: '&b[TMS] &r&2Ваш секретный код — %code. Просканируйте его здесь: %url'
+    confirmation_required: '&b[TMS] &rПожалуйста, подтвердите ваш код с помощью &e&o/2fa confirm <код>'
+    code_required: '&b[TMS] &rПожалуйста, введите ваш код двухфакторной аутентификации используя команду &e&o/2fa code <код>'
+    already_enabled: '&b[TMS] &rДвухфакторная аутентификация уже активирована для вашего аккаунта!'
+    enable_error_no_code: '&b[TMS] &rКод двухфакторной аутентификации не был сгенерирован или истек. Пожалуйста, введите &e&o/2fa add'
+    enable_success: '&b[TMS] &rДвухфакторная аутентификация для вашего аккаунта успешно подключена'
+    enable_error_wrong_code: '&b[TMS] &rСрок действия кода истек или код неверный. Введите &e&o/2fa add'
+    not_enabled_error: '&b[TMS] &rДвухфакторная аутентификация не включена для вашего аккаунта. Введите &e&o/2fa add'
+    removed_success: '&b[TMS] &rДвухфакторная аутентификация успешно удалена с вашего аккаунта!'
+    invalid_code: '&b[TMS] &rНеверный код!'

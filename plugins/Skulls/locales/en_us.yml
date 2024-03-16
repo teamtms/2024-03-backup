@@ -1,0 +1,178 @@
+gui:
+  custom category list:
+    title: '&eSkulls &8> &7Custom Categories'
+    items:
+      new:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To create new category'
+        name: <GRADIENT:DD5E89>&lNew Category</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8View heads by this category'
+          - '&7Total Heads&F: &b%category_size%'
+          - ''
+          - '&e&lClick &8» &7To view category'
+        name: '%category_name%'
+  skulls list:
+    title:
+      all: '&eSkulls &8> &7All'
+      search: '&eSkulls &8> &7%search_phrase%'
+      favourites: '&eSkulls &8> &7Favourites'
+      category: '&eSkulls &8> &7%category_name%'
+    items:
+      skull:
+        lore:
+          take: '&e&lLeft Click &8» &7To take one'
+          blocked: '&c&oPurchase is blocked'
+          favourited: '&e&lFAVOURITED'
+          edit: '&b&lPress 1 &8» &7To edit this skull'
+          price: '&7Cost: &a$%skull_price%'
+          un favourite: '&e&lRight Click &8» &7To unfavourite head'
+          id: '&7Id: &e%skull_id%'
+          favourite: '&e&lRight Click &8» &7To favourite head'
+          tags: '&7Tags: &e%skull_tags%'
+        name: '&e%skull_name%'
+  buttons:
+    next:
+      lore: '&7Click to next page'
+      name: '&eNext'
+    exit:
+      lore: '&7Click to close menu'
+      name: '&cExit'
+    previous:
+      lore: '&7Click to go back a page'
+      name: '&ePrevious'
+    back:
+      lore: '&7Click to go back'
+      name: '&aBack'
+  edit:
+    title: '&eSkulls &8> &7Edit &8> &7%skull_id%'
+    items:
+      blocked:
+        lore:
+          - ''
+          - '&7Blocked&f: %is_true%'
+          - ''
+          - '&e&lClick &8» &7To toggle block status'
+        name: <GRADIENT:DD5E89>&lSkull Blocked</GRADIENT:fbc7d4>
+      price:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To edit skull price'
+        name: <GRADIENT:DD5E89>&lSkull Price</GRADIENT:fbc7d4>
+      name:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To change skull name'
+        name: <GRADIENT:DD5E89>&lSkull Name</GRADIENT:fbc7d4>
+      add category:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To add to another category'
+        name: <GRADIENT:DD5E89>&lAdd To Category</GRADIENT:fbc7d4>
+  histories:
+    title: '&eSkulls &8> &7Histories'
+    items:
+      history:
+        lore:
+          - ''
+          - '&7Total Heads&f: &a%history_size%'
+          - '&7Downloaded&f: %is_true%'
+          - '&7Time&f: &a%history_time%'
+          - ''
+          - '&e&lClick &8» &7To download heads'
+        name: '&e%history_id%'
+  main:
+    title: '&eSkulls'
+    items:
+      search:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To search for heads'
+        name: <GRADIENT:DD5E89>&lSearch</GRADIENT:fbc7d4>
+      favourites:
+        lore:
+          - '&7A collection of every single head'
+          - '&7that you have favourited.'
+          - ''
+          - '&e&lClick &8» &7To view your favourites'
+        name: <GRADIENT:DD5E89>&lFavourites</GRADIENT:fbc7d4>
+      custom categories:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To view more categories'
+        name: <GRADIENT:DD5E89>&lMore Categories</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8View heads by this category'
+          - '&7Total Heads&F: &b%category_size%'
+          - ''
+          - '&e&lClick &8» &7To view category'
+        name: '&e%category_name%'
+  custom category selector:
+    title: '&eSkulls &8> &7Select Category'
+    items:
+      category:
+        lore: '&e&lClick &8» &7To select category'
+        name: '%category_name%'
+input:
+  category create:
+    subtitle: '&fEnter id for new category'
+    title: '&eCategory Creation'
+  skull edit:
+    price: '&fEnter the new skull price'
+    name: '&FEnter the new name skull name'
+    title: '&eEditing Skull'
+  skull search:
+    subtitle: '&fEnter search terms into chat'
+    title: '&eSkull Search'
+categories:
+  food and drinks: Food & Drinks
+  humanoids: Humanoids
+  plants: Plants
+  blocks: Blocks
+  monsters: Monsters
+  alphabet: Alphabet
+  animals: Animals
+  decoration: Decoration
+  humans: Humans
+  misc: Miscellaneous
+error:
+  not a number: '&4%value% &cis not a valid number!'
+  no permission: '&cYou do not have enough permission!'
+  player offline: '&4%value% &cis not online currently!'
+  not enough money: '&cYou do not have enough money!'
+  player not found: '&4%value% &cwas not found!'
+button:
+  number key: 'Press # Key'
+  left click: Left Click
+  right click: Right Click
+  left shift click: Shift+Left Click
+  middle click: Middle Click
+  drop key: Press Drop Key
+misc:
+  id taken: '&cThat category id is already in use!'
+  skull not found: '&cNo skull by that id could be found'
+  no skull info: '&cCould not determine ID of that skull'
+  category permission: '&cYou do not have permission to access that category!'
+  loading: '&cPlease wait a bit longer, still loading heads.'
+conditionals:
+  is true: '&ATrue'
+  is allowed: '&aAllowed'
+  is false: '&cFalse'
+  'false': '&CFalse'
+  is disallowed: '&cDisallowed'
+  'true': '&aTrue'
+  closed: '&cClosed'
+  disabled: '&cDisabled'
+  enabled: '&aEnabled'
+  open: '&aOpen'
+skull:
+  name: '&e%skull_name%'
+inspect info:
+  - '&8&m-----------------------------------------------------'
+  - ''
+  - '&eSkull ID&f: &a%skull_id%'
+  - ''
+  - '&8&m-----------------------------------------------------'

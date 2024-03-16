@@ -1,0 +1,109 @@
+# Default language file
+language: english
+# Prefix to be used in chat
+prefix: <GRADIENT:DD5E89>&lSkulls</GRADIENT:fbc7d4>&r &8»
+# Should skulls charge users without permission for heads?
+charge for heads: true
+# You can use Vault or Item
+economy: Vault
+# 
+item economy item: GOLD_INGOT
+# 
+main menu requires no permission: true
+# If true, no permission is required to use except for admin stuff
+general usage requires no permission: false
+# 
+tell ops patron on join: true
+# If disabled skulls will no longer drop in creative
+track skull placement: true
+enabled categories:
+  # 
+  food and drinks: true
+  # 
+  humanoids: true
+  # 
+  blocks: true
+  # 
+  plants: true
+  # 
+  monsters: true
+  # 
+  alphabet: true
+  # 
+  animals: true
+  # 
+  decoration: true
+  # 
+  humans: true
+  # 
+  misc: true
+player head:
+  # 
+  name: '&e%player_name%'
+  # 
+  drop enabled: true
+  # 
+  drop chance: 50
+gui:
+  main:
+    items:
+      favourites:
+        # -1 to disable it
+        slot: 42
+      blocks:
+        # 
+        slot: 13
+      monsters:
+        # 
+        slot: 23
+      alphabet:
+        # 
+        slot: 11
+      food and drinks:
+        # 
+        slot: 15
+      humanoids:
+        # 
+        slot: 21
+      search:
+        # -1 to disable it
+        slot: 40
+      plants:
+        # 
+        slot: 24
+      custom categories:
+        # -1 to disable it
+        slot: 38
+      animals:
+        # 
+        slot: 12
+      decoration:
+        # 
+        slot: 14
+      humans:
+        # 
+        slot: 20
+      misc:
+        # 
+        slot: 22
+default prices:
+  # 
+  food and drinks: 1.0
+  # 
+  humanoids: 1.0
+  # 
+  blocks: 1.0
+  # 
+  plants: 1.0
+  # 
+  monsters: 1.0
+  # 
+  alphabet: 1.0
+  # 
+  animals: 1.0
+  # 
+  decoration: 1.0
+  # 
+  humans: 1.0
+  # 
+  misc: 1.0

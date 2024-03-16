@@ -1,0 +1,54 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.220.228.31
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1710267116984
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1710273998202
+  login: 1710267200670
+money: '0'
+lastlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 26.660306777417663
+  y: 84.0
+  z: -160.38566112862182
+  yaw: 26.79840087890625
+  pitch: 31.649980545043945
+logoutlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 106.65823876827125
+  y: 81.20000004768372
+  z: -212.07521619579876
+  yaw: 84.586669921875
+  pitch: 35.84794616699219
+last-account-name: kub1us
+nickname: kub1us
+mail:
+- legacy: false
+  read: true
+  message: Нет
+  sender-name: Player81
+  sender-uuid: f20c75ef-12a1-38bf-8d5f-554e39628d6e
+  timestamp: 1708363402985
+  expire: 0
+- legacy: false
+  read: true
+  message: Шо це
+  sender-name: Fakem1ner
+  sender-uuid: 8c23eeed-29f7-3825-afae-20737daf3c44
+  timestamp: 1705338315829
+  expire: 0

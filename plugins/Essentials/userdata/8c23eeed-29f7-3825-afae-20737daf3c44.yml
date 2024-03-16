@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.255.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1710268791840
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1710270115722
+  login: 1710263451834
+  kits:
+    help: 1708870731787
+    color: 1709407855237
+money: '0'
+logoutlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 106.8670728799294
+  y: 78.0
+  z: -211.57873978469385
+  yaw: 142.287353515625
+  pitch: 18.898786544799805
+last-account-name: Fakem1ner
+lastlocation:
+  world: bb3b58a4-e4f3-438f-86d9-d32b2cfcf5fe
+  world-name: thetms
+  x: 133.37875468426088
+  y: 79.50611243578396
+  z: -99.77151705169636
+  yaw: 148.6171875
+  pitch: 36.85942077636719
